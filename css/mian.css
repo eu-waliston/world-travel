@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#page_1 {
+   background-image: url("../assets/fundo3.jpg");
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+
+.blank {
+    background-color: rgba(247, 247, 247, 0.692);
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+}
+
+.P1 {
+    position: relative;
+    top: 170px;
+    left: 30px;
+    font-size: 30px;
+    color: #000;
+}
+.testo01 {
+    font-weight: bolder;
+    position: relative;
+    margin-top: 150px;
+    font-size: 150px;
+    margin-left: 30px;
+} 
+
+span {
+    color: rgb(49, 79, 212);
+}
+
+
+.blue_square {
+    background-color: rgb(0, 47, 255);
+    width: 20%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    position: relative;
+    margin-top: 100px;
+}
+
+.blue_square > h3 {
+    position: relative;
+    left: 30px;
+}
+
+.last_thing {
+    position: relative;
+    margin-top: 50px;
+    left: 15%;
+}
