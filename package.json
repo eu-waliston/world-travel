@@ -1,0 +1,22 @@
+{
+  "name": "adventure-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uai-waliston/world-travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uai-waliston/world-travel/issues"
+  },
+  "homepage": "https://github.com/uai-waliston/world-travel#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
