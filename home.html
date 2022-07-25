@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WorldTravel</title>
     <link rel="stylesheet" href="css/mian.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons8-globo-64.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link
       rel="stylesheet"
@@ -21,7 +28,9 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">TI</a>
+        <a class="navbar-brand" href="#"
+          ><img src="assets/icons8-globo.gif" alt="" class="logo1"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -74,6 +83,33 @@
       </div>
     </div>
 
+    <div id="page_2">
+      <div class="blank_2">
+        <h1
+          class="page2__h1"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+        >
+          keep calm & <span class="puft">go to</span>Lake
+        </h1>
+
+        <h3 class="book_now">book now</h3>
+        
+        <img src="assets/lake.jpg" class="lake">
+
+        <div class="blue__quare">
+          <p>free boat</p>
+          <h3 class="ride">ride</h3>
+        </div>
+      </div>
+    </div>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

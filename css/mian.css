@@ -1,63 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
+/* Page 1 */
 
 #page_1 {
-   background-image: url("../assets/fundo3.jpg");
-   height: 100vh;
-   background-position: center;
-   background-size: cover;
+  background-image: url("../assets/fundo3.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .blank {
-    background-color: rgba(247, 247, 247, 0.692);
-    width: 100vh;
-    height: 100vh;
-    position: relative;
+  background-color: rgba(247, 247, 247, 0.692);
+  width: 100vh;
+  height: 100vh;
+  position: relative;
 }
 
 .P1 {
-    position: relative;
-    top: 170px;
-    left: 30px;
-    font-size: 30px;
-    color: #000;
+  position: relative;
+  top: 170px;
+  left: 30px;
+  font-size: 30px;
+  color: #000;
 }
 .testo01 {
-    font-weight: bolder;
-    position: relative;
-    margin-top: 150px;
-    font-size: 150px;
-    margin-left: 30px;
-} 
-
-span {
-    color: rgb(49, 79, 212);
+  font-weight: bolder;
+  position: relative;
+  margin-top: 150px;
+  font-size: 150px;
+  margin-left: 30px;
 }
 
+span {
+  color: rgb(7, 94, 94);
+  font-weight: bolder;
+}
 
 .blue_square {
-    background-color: rgb(0, 47, 255);
-    width: 30%;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: white;
-    position: relative;
-    margin-top: 100px;
+  background-color: rgb(7, 94, 94);
+  width: 30%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  position: relative;
+  margin-top: 100px;
 }
 
 .blue_square > h3 {
-    position: relative;
-    left: 30px;
+  position: relative;
+  left: 30px;
 }
 
 .last_thing {
-    position: relative;
-    margin-top: 50px;
-    left: 15%;
+  position: relative;
+  margin-top: 50px;
+  left: 15%;
 }
+
+.logo1 {
+  width: 40px;
+}
+
+/* and of page 1 */
+
+/* Page 2*/
+#page_2 {
+  background-image: url("../assets/fundo8.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.blank_2 {
+    background-color: rgba(247, 247, 247, 0.705);
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+}
+
+.page2__h1 {
+    font-size: 150px;
+    position: relative;
+    right: 90%;
+    top: 30%;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.puft{
+    color: rgb(7, 94, 94);
+    background-color: rgba(247, 247, 247, 0.575);
+    border-radius: 10px;
+}
+
+.book_now {
+    text-align: center;
+    position: relative;
+    top: -20%;
+    font-size: 40px;
+    background-color: rgb(7, 94, 94);
+    padding: 15px;
+    width: 45%;
+    left: 28%;
+    border-radius: 10px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.book_now:hover {
+    background-color: rgb(13, 110, 110);
+    transition: all .2s;
+    box-shadow: 2px 2px 2px  rgb(96, 97, 97);
+}
+
+.hr_2 {
+    position: relative;
+    width: 60%;
+    left: 25%;
+    top: -15%;
+}
+
+
+
+.blue__quare {
+    text-align: center;
+    background-color: rgb(13, 110, 110); 
+    position: relative;
+    width: 20%;
+    left: 80%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: -5%;
+} 
+
+.blue__quare:hover {
+    background-color: rgb(13, 110, 110);
+    transition: all .2s;
+    box-shadow: 2px 2px 2px  rgb(96, 97, 97);
+}
+
+.ride {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.lake {
+    width: 70%;
+    position: relative;
+    top: -15%;
+    left: 16%;
+}
+/* and of page 2 */
